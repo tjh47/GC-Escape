@@ -1,0 +1,63 @@
+\begin{thebibliography}{8}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname bibnamefont\endcsname\relax
+  \def\bibnamefont#1{#1}\fi
+\expandafter\ifx\csname bibfnamefont\endcsname\relax
+  \def\bibfnamefont#1{#1}\fi
+\expandafter\ifx\csname citenamefont\endcsname\relax
+  \def\citenamefont#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{\citenamefont{{H{\'e}non}}(1960)}]{HenonA}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{{H{\'e}non}}},
+  \bibinfo{journal}{Annales d'Astrophysique} \textbf{\bibinfo{volume}{23}},
+  \bibinfo{pages}{467} (\bibinfo{year}{1960}).
+
+\bibitem[{\citenamefont{{Henon}}(1969)}]{HenonB}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{{Henon}}},
+  \bibinfo{journal}{Astronomy and Astrophysics} \textbf{\bibinfo{volume}{2}},
+  \bibinfo{pages}{151} (\bibinfo{year}{1969}).
+
+\bibitem[{\citenamefont{{Kroupa}}(2001)}]{Kroupa2001}
+\bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{{Kroupa}}},
+  \bibinfo{journal}{MNRAS} \textbf{\bibinfo{volume}{322}}, \bibinfo{pages}{231}
+  (\bibinfo{year}{2001}), \eprint{astro-ph/0009005}.
+
+\bibitem[{\citenamefont{{Shin} et~al.}(2013)\citenamefont{{Shin}, {Kim}, and
+  {Lee}}}]{Shin}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{{Shin}}},
+  \bibinfo{author}{\bibfnamefont{S.~S.} \bibnamefont{{Kim}}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{Y.-W.} \bibnamefont{{Lee}}},
+  \bibinfo{journal}{Journal of Korean Astronomical Society}
+  \textbf{\bibinfo{volume}{46}}, \bibinfo{pages}{173} (\bibinfo{year}{2013}).
+
+\bibitem[{\citenamefont{{Conroy} et~al.}(2011)\citenamefont{{Conroy}, {Loeb},
+  and {Spergel}}}]{Conroy}
+\bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{{Conroy}}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{{Loeb}}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{D.~N.} \bibnamefont{{Spergel}}},
+  \bibinfo{journal}{\apj} \textbf{\bibinfo{volume}{741}}, \bibinfo{eid}{72}
+  (\bibinfo{year}{2011}), \eprint{1010.5783}.
+
+\bibitem[{\citenamefont{{Hinshaw} et~al.}(2013)\citenamefont{{Hinshaw},
+  {Larson}, {Komatsu}, and {\it{et al.}}}}]{WMAP9}
+\bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{{Hinshaw}}},
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{{Larson}}},
+  \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{{Komatsu}}},
+  \bibnamefont{and} \bibinfo{author}{\bibnamefont{{\it{et al.}}}},
+  \bibinfo{journal}{APJS} \textbf{\bibinfo{volume}{208}}, \bibinfo{eid}{19}
+  (\bibinfo{year}{2013}), \eprint{1212.5226}.
+
+\bibitem[{\citenamefont{Collaboration}()}]{Planck15}
+\bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Collaboration}} (????).
+
+\bibitem[{\citenamefont{{Harris}}(1996)}]{Harris}
+\bibinfo{author}{\bibfnamefont{W.~E.} \bibnamefont{{Harris}}},
+  \bibinfo{journal}{The Astronomical Journal} \textbf{\bibinfo{volume}{112}},
+  \bibinfo{pages}{1487} (\bibinfo{year}{1996}).
+
+\end{thebibliography}

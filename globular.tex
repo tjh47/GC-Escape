@@ -25,7 +25,7 @@
 \newcommand{\Rvir}{R_{\mathrm{vir}}}
 \newcommand{\Msun}{\textrm{M}_\odot}
 \newcommand{\kpc}{\textrm{kpc}}
-\newcommand{\pc}{\textrm{pc}}
+\newcommand{\gev}{\textrm{GeV}}
 
 \begin{document}
 
@@ -56,14 +56,22 @@ An abstract is a great convenience for the reader and is required by all journal
 %In the $\Lambda$CDM paradigm, DM is the first matter component to collapse and form structures (roughly spherical structures referred to as DM `halos') forming the seeds for all other structure formation {\bf citation needed}.  Baryons collapse within DM halos forming progressively larger and larger structures through the mergers of smaller DM halos.  Thus clusters of galaxies are assembled from galaxies which previously collapsed.  This is referred to as `hierarchical structure formation' and will be the case so long as the DM is `Cold' (non-relativistic at freeze out), hence the C in $\Lambda$CDM.
 
 
-%One seeming exception to this structure formation scenario are Globular Clusters (GC), observations of which indicate that these are not DM dominated objects unlike galaxies and clusters of galaxies. Dynamical observations of several Galactic GCs indicate that $M_{\mathrm{DM}} \lesssim M_*$ \cite{Shin,Conroy} where  $M_{\mathrm{DM}}$ is the DM mass and $M_*$ is the stellar mass.  Moreover, observations of the cooling of white dwarfs in GCs indicate that if the DM is indeed a WIMP, then for a large portion of parameter space, the DM content of GCs is likely to be at least 2-3 orders of magnitude less than the stellar content {\bf cite myself and a couple of other references}.  
+In the $\Lambda$CDM paradigm, Dark Matter (DM) is the first matter constituent to collapse forming DM halos which serve as the seeds for galaxy formation.  Progressively larger structures are built through the mergers of halos.  This hierarchical structure formation is predicted by theory and is seen in N-body simulations as well as observed in the structure of galaxies and galaxy clusters.  
+
+%One seeming exception to this scenario are Globular Clusters (GC), observations of which indicate that these are not DM dominated objects. Dynamical observations of several GGCs indicate that $M_{\mathrm{DM}} \lesssim M_*$ \cite{Shin,Conroy} where  $M_{\mathrm{DM}}$ is the DM mass and $M_*$ is the stellar mass.  Moreover, observations of the cooling of white dwarfs in GCs indicate that if the DM is indeed a WIMP, then for a large portion of parameter space, the DM content of GCs is likely to be at least 2-3 orders of magnitude less than the stellar content {\bf cite myself and a couple of other references}.  
+
+One seeming exception to this scenario are Globular Clusters (GC).  Ref.~\cite{Peebles1984} was the first to propose that GCs form in extended DM halos.  However, observations of many GCs reveal thin tidal tails which N-body simulations predict should not form if they possess halos.  Moreover recent studies of several GCs indicate that the ratio of the mass in DM to stars in several GCs $\MDM/M_* \lesssim 1$ \cite{Grillmair1995,Odenkirchen2003,Moore1996,Shin, Conroy} and is potentially $\lesssim 10^{-2}$ if the DM is a low mass ($\mx \sim 10\, \gev$) weakly interacting particle \cite{Hurst}.  Though they seemingly do not possess DM halos today, they could have had them in the past and subsequently lost their DM.  One mechanism invoked for the removal of the halo is tridal stripping by the galaxy \cite{Bromm2002,Mashchenko2005}.  While, the majority of the GGCs orbit within strong tidal fields there does exist a population of isolated GCs with galactocentric distances $r_{gc} > 70\, \kpc$ that should not have lost their halos tidally.  Two such GCs are NGC 2419 ($r_{gc} = 89.9\, \kpc$) and MGC1, which at $\sim 200\, \kpc$ from M31 is the most isolated cluster in the local group \cite {Harris, Conroy}.  Obseravtions of both these cluster indicate that $\MDM/M_* \lesssim 1$ \cite{Conroy}.
 
 
 %Because they are not dominated by DM today, it is generally thought that GCs did not form inside DM halos {\bf citation needed}.  The most likely alternative then is that their formation was triggered by gravitational instability {\bf citation needed}.  However, the formation scenarios of GCs remain controversial in part because of the complex abundance patterns measured in stars.  These observations indicate that GCs must have been much more massive in the past in order to retain significant amounts of heavy elements that would have been ejected by Supernovae \cite{Gratton,Gratton2012,Con&Sperg}.
 
+It is now generally thought GCs formed in gas compressed by shocks \cite{Gunn1980,Harris1994}.  However, the formation scenarios of GCs remain controversial in part because of the complex abundance patterns measured in stars.  These observations indicate that GCs must have been much more massive in the past in order to retain significant amounts of heavy elements that would have been ejected by supernovae \cite{Gratton,Gratton2012,Con&Sperg}.
+
 
 %One feasible scenario in which GCs could have had more mass in the past is if they formed in DM halos, but then subsequently ejected their DM content through multi-body gravitational interactions.  It is well known that early in their history GCs ejected stars by just this mechanism until the cluster became `relaxed' \cite{HenonA,HenonB}, so it is certainly reasonable to wonder if GCs could have ejected significant amounts of DM in the same manner.
 
+
+In this paper we investigate an additional mechanism by which GCs could eject DM halos:  through multi-body gravitational effects.  
 
 %In this paper we will investigate the escape rate of DM particles from a spherically symmetric stellar system in order to ascertain just how reasonable the DM ejection scenario is.  As the interaction is gravitiational, we shall not trouble ourselves with the details of the DM particle.  The only assumption we make of the DM particle is that its mass is significantly less than the mass of a typical star, which will be the case in any reasonable physical model.  
 
@@ -470,7 +478,7 @@ where
 %
 and the $\prime$ in $S_i^\prime$ denotes the fact that it is now a function of $x$ and $\xp$ with $\vesc$ factored out.
 
-Let us now choose a particular stellar mass spectrum.  We begin with the Initial Mass Function (IMF) from Ref.~\cite{Kroupa2001}.  All of the Galactic GCs should have ages of order $\sim10$ Gyr, meaning that their Main Sequence (MS) turnoffs should be at approximately $1\, \Msun$.  Therefore, in order to obtain a crude approximation of the present day stellar mass spectrum, we simply cut off the IMF at $1\, \Msun$.  Note that this is highly conservative as stellar remnants such as Neutron Stars, White Dwarfs, and Black Holes as well as any stars still on the Giant and Horizontal Branches should contribute to the escape rate.  Furthermore, higher mass stars are given more wait in the integral over mass in Eq.~(\ref{esc4}) (see Fig.~\ref{IMF}).
+Let us now choose a particular stellar mass spectrum.  We begin with the Initial Mass Function (IMF) from Ref.~\cite{Kroupa2001}.  All of the GGCs should have ages of order $\sim10$ Gyr, meaning that their Main Sequence (MS) turnoffs should be at approximately $1\, \Msun$.  Therefore, in order to obtain a crude approximation of the present day stellar mass spectrum, we simply cut off the IMF at $1\, \Msun$.  Note that this is highly conservative as stellar remnants such as Neutron Stars, White Dwarfs, and Black Holes as well as any stars still on the Giant and Horizontal Branches should contribute to the escape rate.  Furthermore, higher mass stars are given more wait in the integral over mass in Eq.~(\ref{esc4}) (see Fig.~\ref{IMF}).
 
 With this choice of stellar mass spectrum we have that
 %
@@ -485,7 +493,7 @@ With this choice of stellar mass spectrum we have that
 \begin{figure}[htp]
 \centering
 \includegraphics[width=12cm, height=12cm]{IMF}
-\caption{The solid black line is the IMF from Ref.~\cite{Kroupa2001}. After 10 Gyr (the approximate age of a Galactic GC) stars more massive than $1\, \Msun$ will have left the MS.  We therefore cut the IMF off at $1\, \Msun$ in order to approximate the present day stellar mass spectrum.  This is a highly conservative choice as the remnants of more massive stars and stars still on the Giant and Horizontal Branches should also contribute to the escape rate.}
+\caption{The solid black line is the IMF from Ref.~\cite{Kroupa2001}. After 10 Gyr (the approximate age of a GGC) stars more massive than $1\, \Msun$ will have left the MS.  We therefore cut the IMF off at $1\, \Msun$ in order to approximate the present day stellar mass spectrum.  This is a highly conservative choice as the remnants of more massive stars and stars still on the Giant and Horizontal Branches should also contribute to the escape rate.}
 \label{IMF}
 \end{figure}
 %
@@ -496,23 +504,23 @@ With this choice of stellar mass spectrum we have that
 \label{section:results}
 
 
-In Fig.~\ref{EscapePlummer1} we consider the result of integrating Eq.~(\ref{esc4}) numerically for different values of the ratio $\MDM/M_*$ and compare these results to the Galactic GCs (as well as the cluster MGC1 located in M31).  As noted in \S\ref{section:intro}, most of the Galactic GCs could have lost their DM halos through tidal interactions with the Galaxy.  We shall therefore pay particular attention to the most isolated GCs (galactocentric distance $R_{gc} > 70\, \kpc$).  First consider the upper left panel.  For large values of $\MDM/M_*$ the escape rate is much too low for a significant portion of the halo to have been ejected.  However, observations of several GCs (NGC 6397, MGC1, NGC2419) indicate that $\MDM/M_* \lesssim 1$ \cite{Shin,Conroy}.  While NGC 6397 could have had its halo tidally stripped, MGC1 and NGC 2419 are extremely isolated (at 200 kpc away from M31, MGC1 is the most isolated cluster in the local group while NGC 2419 lies some 90 kpc from the center of the MW) and therefore orbit in weak tidal fields and should have retained their primordial DM halos \cite{Conroy}.  Our results therefore rule out the possibility that these clusters formed with significant DM halos.  The remaining panels demonstrate that regardless of the value of $\MDM/M_*$ GCs cannot have ejected a significant amount of DM by multi-body interactions.  Note that the escape rate is no longer sensitive to the value of $\MDM/M_*$ once this ratio has dropped below $\approx 10^{-2}$.
+In Fig.~\ref{EscapePlummer1} we consider the result of integrating Eq.~(\ref{esc4}) numerically for different values of the ratio $\MDM/M_*$ and compare these results to the GGCs (as well as the cluster MGC1 located in M31).  As noted in \S\ref{section:intro}, most of the GGCs could have lost their DM halos through tidal interactions with the Galaxy.  We shall therefore pay particular attention to the most isolated GCs (galactocentric distance $R_{gc} > 70\, \kpc$).  First consider the upper left panel.  For large values of $\MDM/M_*$ the escape rate is much too low for a significant portion of the halo to have been ejected.  However, observations of several GCs (NGC 6397, MGC1, NGC2419) indicate that $\MDM/M_* \lesssim 1$ \cite{Shin,Conroy}.  While NGC 6397 could have had its halo tidally stripped, MGC1 and NGC 2419 are extremely isolated (at 200 kpc away from M31, MGC1 is the most isolated cluster in the local group while NGC 2419 lies some 90 kpc from the center of the MW) and therefore orbit in weak tidal fields and should have retained their primordial DM halos \cite{Conroy}.  Our results therefore rule out the possibility that these clusters formed with significant DM halos.  The remaining panels demonstrate that regardless of the value of $\MDM/M_*$ GCs cannot have ejected a significant amount of DM by multi-body interactions.  Note that the escape rate is no longer sensitive to the value of $\MDM/M_*$ once this ratio has dropped below $\approx 10^{-2}$.
 %
 % Figure of Specific escape rate all clusters
 \begin{figure}[htp]
 \centering
 \includegraphics[width=12cm, height=12cm]{EscapePlummer}
-\caption{Contours of the specific escape rate for GCs with $r_0 = \rx$.  Each panel shows a different value of the ratio $\MDM/M_*$.  The red star represents MGC1, an isolated cluster orbiting M31, while the blue diamonds represent the isolated popluation of Galactic GCs ($R_{gc} > 70$ kpc).  These isolated GCs are further considered in Fig.~\ref{var_rad_iso}.  Galactic GCs that have been selected for further investigation in Fig.~\ref{var_rad_not_iso} are marked with pink squares while the green triangles denote the remaining Galactic GCs.  The solid blue line is the location where the specific escape rate is $1/\tau$ with $\tau = 13.8$ Gyr the approximate age of the Universe \cite{WMAP9,Planck15}.  GCs with escape rates comparable to or exceeding this limit should have ejected a significant portion of their DM halos.  However, none of the clusters reach this limit regardless of the value of $\MDM/M_*$, with the most massive halos having the lowest escape rates as expected.}  
+\caption{Contours of the specific escape rate for GCs with $r_0 = \rx$.  Each panel shows a different value of the ratio $\MDM/M_*$.  The red star represents MGC1, an isolated cluster orbiting M31, while the blue diamonds represent the isolated popluation of GGCs ($R_{gc} > 70$ kpc).  These isolated GCs are further considered in Fig.~\ref{var_rad_iso}.  GGCs that have been selected for further investigation in Fig.~\ref{var_rad_not_iso} are marked with pink squares while the green triangles denote the remaining GGCs.  The solid blue line is the location where the specific escape rate is $1/\tau$ with $\tau = 13.8$ Gyr the approximate age of the Universe \cite{WMAP9,Planck15}.  GCs with escape rates comparable to or exceeding this limit should have ejected a significant portion of their DM halos.  However, none of the clusters reach this limit regardless of the value of $\MDM/M_*$, with the most massive halos having the lowest escape rates as expected.}  
 \label{EscapePlummer1}
 \end{figure}
 
-In Figs.~\ref{var_rad_not_iso}~\&~\ref{var_rad_iso} we consider the effect of varying $\rx$ with respect to $r_0$ with $\MDM/M_* = 1$.  We consider $\rx = 10r_0$ which might correspond to an extended primordial halo as well as $\rx = 10^{-1}r_0$ which might correspond to a cluster which has had the outer part of its DM halo stripped by tidal interactions.  The results are obtained by integrating Eq.~(\ref{esc2}) with the appropriate numerically derived distribution functions (see Fig.~\ref{dist func}).  We first consider the GCs marked with pink squares in Fig.~\ref{EscapePlummer1}.  The parameters for these clusters are summarized in Table~\ref{table_not_iso} and span the full range of Galactic GCs.  Note that decreasing (increasing) $\rx$ increases (decreases) the escape rate.  This result is perhaps counter intuitive as a smaller (larger) halo should have a deeper (shallower) potential well which is correspondingly more (less) difficult to escape from.  However, in a smaller (larger) halo, the probability of experiencing an encounter is much higher (lower), which explains the results.  Note, that for $\MDM/M_* = 1$ the only halo which exceeds $1/\tau$ is that of Pal 1 in the case that $\rx = 10^{-1}r_0$.  However, the escape rate can be increased by an additional half dex for smaller values of the ratio $\MDM/M_*$.  Fig~\ref{var_rad_not_iso} then indicates that clusters with $\MDM/M_*~\lesssim~10^{-2}$, $M_* \lesssim 10^5\, \Msun$, and $r_0$~not more than a few parsecs, could have ejected a small remnant halo after the initial halo was tidally stripped.  
+In Figs.~\ref{var_rad_not_iso}~\&~\ref{var_rad_iso} we consider the effect of varying $\rx$ with respect to $r_0$ with $\MDM/M_* = 1$.  We consider $\rx = 10r_0$ which might correspond to an extended primordial halo as well as $\rx = 10^{-1}r_0$ which might correspond to a cluster which has had the outer part of its DM halo stripped by tidal interactions.  The results are obtained by integrating Eq.~(\ref{esc2}) with the appropriate numerically derived distribution functions (see Fig.~\ref{dist func}).  We first consider the GCs marked with pink squares in Fig.~\ref{EscapePlummer1}.  The parameters for these clusters are summarized in Table~\ref{table_not_iso} and span the full range of GGCs.  Note that decreasing (increasing) $\rx$ increases (decreases) the escape rate.  This result is perhaps counter intuitive as a smaller (larger) halo should have a deeper (shallower) potential well which is correspondingly more (less) difficult to escape from.  However, in a smaller (larger) halo, the probability of experiencing an encounter is much higher (lower), which explains the results.  Note, that for $\MDM/M_* = 1$ the only halo which exceeds $1/\tau$ is that of Pal 1 in the case that $\rx = 10^{-1}r_0$.  However, the escape rate can be increased by an additional order of magnitude for smaller values of the ratio $\MDM/M_*$.  Fig~\ref{var_rad_not_iso} then indicates that clusters with $\MDM/M_*~\lesssim~10^{-2}$ and $r_0$~not more than a few parsecs, could have ejected a small remnant halo after the initial halo was tidally stripped.  
 %
 % Figure of selected GCs not iso
 \begin{figure}[htp]
 \centering
 \includegraphics[width=12cm, height=12cm]{var_rad_not_iso}
-\caption{Escape rates for several Galactic GCs for different values of $\rx/r_0$ under the assumption that $\MDM/M_* = 1$.  The solid blue line denotes $1/\tau$.}  
+\caption{Escape rates for several GGCs for different values of $\rx/r_0$ under the assumption that $\MDM/M_* = 1$.  The solid blue line denotes $1/\tau$.}  
 \label{var_rad_not_iso}
 \end{figure}
 %
@@ -537,7 +545,7 @@ In Figs.~\ref{var_rad_not_iso}~\&~\ref{var_rad_iso} we consider the effect of va
 \label{table_not_iso}
 \end{table}
 
-In Fig.~\ref{var_rad_iso} we consider the escape rates for the most isolated clusters in the Milky Way (and M31) which are marked with blue diamonds in Fig~\ref{EscapePlummer1}.  The parameters for these clusters are summarized in Table~\ref{table_iso}.  Due to their large sizes ($r_0 > 10\, \pc$) these clusters all have escape rates well below $1/\tau$.  Since these clusters should not have lost their halos through tidal interactions, we conclude as in Ref.~\cite{Conroy} that these clusters did not form in significant DM halos.
+In Fig.~\ref{var_rad_iso} we consider the escape rates for the most isolated clusters in the Milky Way (and M31) which are marked with blue diamonds in Fig~\ref{EscapePlummer1}.  The parameters for these clusters are summarized in Table~\ref{table_iso}
 %
 % Table of isolated GC parameters
 \begin{table}
@@ -551,7 +559,7 @@ In Fig.~\ref{var_rad_iso} we consider the escape rates for the most isolated clu
 	Pal 4 & $5.41\times10^4$ & 16.1 & 111.2 & ---\\
 	NGC 2419 & $1.60\times10^6$ & 21.4& 89.9 &$\lesssim 1$\ \cite{Conroy} \\
 	Pal 14 & $2.00\times10^4$ & 27.1 & 71.6 & --- \\
-	MGC1 & $1\times10^6$ & 20 & 200 & $\lesssim 1$\ \cite{Conroy}  \\
+	MGC 1 & $1\times10^6$ & 20 & 200 & $\lesssim 1$\ \cite{Conroy}  \\
 	\hline
 \end{tabular}
 \caption{Parameters for the isolated GCs marked with blue diamonds in Fig.~\ref{EscapePlummer1} and selected for further consideration in Fig.~\ref{var_rad_iso} \cite{Harris}.}
@@ -562,7 +570,7 @@ In Fig.~\ref{var_rad_iso} we consider the escape rates for the most isolated clu
 \begin{figure}[htp]
 \centering
 \includegraphics[width=12cm, height=12cm]{var_rad_iso}
-\caption{Escape rates of the isolated GCs for different values of $\rx/r_0$ under the assumption that $\MDM/M_* = 1$.  The solid blue line denotes $1/\tau$.}  
+\caption{Caption}  
 \label{var_rad_iso}
 \end{figure}
 %
