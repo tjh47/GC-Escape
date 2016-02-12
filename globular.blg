@@ -4,53 +4,51 @@ The top-level auxiliary file: globular.aux
 The style file: apsrev.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Biblio.bib
-I was expecting a `,' or a `}'---line 26 of file Biblio.bib
- :   
- :   journal = {ArXiv e-prints},
-(Error may have been on previous line)
+Repeated entry---line 281 of file Biblio.bib
+ : @article{Planck15
+ :                  ,
 I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Warning--empty year in Planck15; set to ????
-You've used 8 entries,
+You've used 25 entries,
             3411 wiz_defined-function locations,
-            1205 strings with 10565 characters,
-and the built_in function-call counts, 4586 in all, are:
-= -- 270
-> -- 118
-< -- 19
-+ -- 88
-- -- 30
-* -- 584
-:= -- 545
-add.period$ -- 8
-call.type$ -- 8
-change.case$ -- 32
-chr.to.int$ -- 8
-cite$ -- 9
-duplicate$ -- 431
-empty$ -- 410
-format.name$ -- 74
-if$ -- 860
+            1337 strings with 14184 characters,
+and the built_in function-call counts, 19870 in all, are:
+= -- 1028
+> -- 818
+< -- 112
++ -- 705
+- -- 202
+* -- 2833
+:= -- 2060
+add.period$ -- 25
+call.type$ -- 25
+change.case$ -- 100
+chr.to.int$ -- 25
+cite$ -- 25
+duplicate$ -- 1799
+empty$ -- 1612
+format.name$ -- 476
+if$ -- 3681
 int.to.chr$ -- 1
-int.to.str$ -- 9
-missing$ -- 68
-newline$ -- 39
-num.names$ -- 24
-pop$ -- 134
+int.to.str$ -- 26
+missing$ -- 277
+newline$ -- 90
+num.names$ -- 76
+pop$ -- 474
 preamble$ -- 1
-purify$ -- 32
+purify$ -- 100
 quote$ -- 0
-skip$ -- 153
+skip$ -- 713
 stack$ -- 0
-substring$ -- 141
-swap$ -- 311
-text.length$ -- 14
+substring$ -- 477
+swap$ -- 1507
+text.length$ -- 101
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 48
-warning$ -- 1
-while$ -- 21
+type$ -- 150
+warning$ -- 0
+while$ -- 71
 width$ -- 0
-write$ -- 95
+write$ -- 280
 (There was 1 error message)

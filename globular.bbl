@@ -1,4 +1,4 @@
-\begin{thebibliography}{8}
+\begin{thebibliography}{25}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -12,20 +12,40 @@
 \providecommand{\bibinfo}[2]{#2}
 \providecommand{\eprint}[2][]{\url{#2}}
 
-\bibitem[{\citenamefont{{H{\'e}non}}(1960)}]{HenonA}
-\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{{H{\'e}non}}},
-  \bibinfo{journal}{Annales d'Astrophysique} \textbf{\bibinfo{volume}{23}},
-  \bibinfo{pages}{467} (\bibinfo{year}{1960}).
+\bibitem[{\citenamefont{{Peebles}}(1984)}]{Peebles1984}
+\bibinfo{author}{\bibfnamefont{P.~J.~E.} \bibnamefont{{Peebles}}},
+  \bibinfo{journal}{\apj} \textbf{\bibinfo{volume}{277}}, \bibinfo{pages}{470}
+  (\bibinfo{year}{1984}).
 
-\bibitem[{\citenamefont{{Henon}}(1969)}]{HenonB}
-\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{{Henon}}},
-  \bibinfo{journal}{Astronomy and Astrophysics} \textbf{\bibinfo{volume}{2}},
-  \bibinfo{pages}{151} (\bibinfo{year}{1969}).
+\bibitem[{\citenamefont{{Grillmair} et~al.}(1995)\citenamefont{{Grillmair},
+  {Freeman}, {Irwin}, and {Quinn}}}]{Grillmair1995}
+\bibinfo{author}{\bibfnamefont{C.~J.} \bibnamefont{{Grillmair}}},
+  \bibinfo{author}{\bibfnamefont{K.~C.} \bibnamefont{{Freeman}}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{{Irwin}}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{P.~J.} \bibnamefont{{Quinn}}},
+  \bibinfo{journal}{AJ} \textbf{\bibinfo{volume}{109}}, \bibinfo{pages}{2553}
+  (\bibinfo{year}{1995}), \eprint{astro-ph/9502039}.
 
-\bibitem[{\citenamefont{{Kroupa}}(2001)}]{Kroupa2001}
-\bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{{Kroupa}}},
-  \bibinfo{journal}{MNRAS} \textbf{\bibinfo{volume}{322}}, \bibinfo{pages}{231}
-  (\bibinfo{year}{2001}), \eprint{astro-ph/0009005}.
+\bibitem[{\citenamefont{{Odenkirchen} et~al.}(2003)\citenamefont{{Odenkirchen},
+  {Grebel}, {Dehnen}, {Rix}, {Yanny}, {Newberg}, {Rockosi},
+  {Mart{\'{\i}}nez-Delgado}, {Brinkmann}, and {Pier}}}]{Odenkirchen2003}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{{Odenkirchen}}},
+  \bibinfo{author}{\bibfnamefont{E.~K.} \bibnamefont{{Grebel}}},
+  \bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{{Dehnen}}},
+  \bibinfo{author}{\bibfnamefont{H.-W.} \bibnamefont{{Rix}}},
+  \bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{{Yanny}}},
+  \bibinfo{author}{\bibfnamefont{H.~J.} \bibnamefont{{Newberg}}},
+  \bibinfo{author}{\bibfnamefont{C.~M.} \bibnamefont{{Rockosi}}},
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{{Mart{\'{\i}}nez-Delgado}}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{{Brinkmann}}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{J.~R.}
+  \bibnamefont{{Pier}}}, \bibinfo{journal}{AJ} \textbf{\bibinfo{volume}{126}},
+  \bibinfo{pages}{2385} (\bibinfo{year}{2003}), \eprint{astro-ph/0307446}.
+
+\bibitem[{\citenamefont{{Moore}}(1996)}]{Moore1996}
+\bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{{Moore}}},
+  \bibinfo{journal}{ApJL} \textbf{\bibinfo{volume}{461}}, \bibinfo{pages}{L13}
+  (\bibinfo{year}{1996}), \eprint{astro-ph/9511147}.
 
 \bibitem[{\citenamefont{{Shin} et~al.}(2013)\citenamefont{{Shin}, {Kim}, and
   {Lee}}}]{Shin}
@@ -43,21 +63,179 @@
   \bibinfo{journal}{\apj} \textbf{\bibinfo{volume}{741}}, \bibinfo{eid}{72}
   (\bibinfo{year}{2011}), \eprint{1010.5783}.
 
-\bibitem[{\citenamefont{{Hinshaw} et~al.}(2013)\citenamefont{{Hinshaw},
-  {Larson}, {Komatsu}, and {\it{et al.}}}}]{WMAP9}
-\bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{{Hinshaw}}},
-  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{{Larson}}},
-  \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{{Komatsu}}},
-  \bibnamefont{and} \bibinfo{author}{\bibnamefont{{\it{et al.}}}},
-  \bibinfo{journal}{APJS} \textbf{\bibinfo{volume}{208}}, \bibinfo{eid}{19}
-  (\bibinfo{year}{2013}), \eprint{1212.5226}.
+\bibitem[{\citenamefont{{Ibata} et~al.}(2013)\citenamefont{{Ibata}, {Nipoti},
+  {Sollima}, {Bellazzini}, {Chapman}, and {Dalessandro}}}]{Ibata2013}
+\bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{{Ibata}}},
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{{Nipoti}}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{{Sollima}}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{{Bellazzini}}},
+  \bibinfo{author}{\bibfnamefont{S.~C.} \bibnamefont{{Chapman}}},
+  \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{{Dalessandro}}},
+  \bibinfo{journal}{MNRAS} \textbf{\bibinfo{volume}{428}},
+  \bibinfo{pages}{3648} (\bibinfo{year}{2013}), \eprint{1210.7787}.
 
-\bibitem[{\citenamefont{Collaboration}()}]{Planck15}
-\bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Collaboration}} (????).
+\bibitem[{\citenamefont{{Hurst} et~al.}(2015)\citenamefont{{Hurst}, {Zentner},
+  {Natarajan}, and {Badenes}}}]{HurstWDGC}
+\bibinfo{author}{\bibfnamefont{T.~J.} \bibnamefont{{Hurst}}},
+  \bibinfo{author}{\bibfnamefont{A.~R.} \bibnamefont{{Zentner}}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{{Natarajan}}},
+  \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{{Badenes}}},
+  \bibinfo{journal}{\prd} \textbf{\bibinfo{volume}{91}}, \bibinfo{eid}{103514}
+  (\bibinfo{year}{2015}), \eprint{1410.3925}.
+
+\bibitem[{\citenamefont{{Gunn}}(1980)}]{Gunn1980}
+\bibinfo{author}{\bibfnamefont{J.~E.} \bibnamefont{{Gunn}}}, in
+  \emph{\bibinfo{booktitle}{Globular Clusters}}, edited by
+  \bibinfo{editor}{\bibfnamefont{D.}~\bibnamefont{{Hanes}}} \bibnamefont{and}
+  \bibinfo{editor}{\bibfnamefont{B.}~\bibnamefont{{Madore}}}
+  (\bibinfo{year}{1980}), p. \bibinfo{pages}{301}.
+
+\bibitem[{\citenamefont{{Harris} and {Pudritz}}(1994)}]{Harris1994}
+\bibinfo{author}{\bibfnamefont{W.~E.} \bibnamefont{{Harris}}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{R.~E.} \bibnamefont{{Pudritz}}},
+  \bibinfo{journal}{\apj} \textbf{\bibinfo{volume}{429}}, \bibinfo{pages}{177}
+  (\bibinfo{year}{1994}).
+
+\bibitem[{\citenamefont{{Gratton} et~al.}(2004)\citenamefont{{Gratton},
+  {Sneden}, and {Carretta}}}]{Gratton}
+\bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{{Gratton}}},
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{{Sneden}}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{{Carretta}}},
+  \bibinfo{journal}{ARAA} \textbf{\bibinfo{volume}{42}}, \bibinfo{pages}{385}
+  (\bibinfo{year}{2004}).
+
+\bibitem[{\citenamefont{{Gratton} et~al.}(2012)\citenamefont{{Gratton},
+  {Carretta}, and {Bragaglia}}}]{Gratton2012}
+\bibinfo{author}{\bibfnamefont{R.~G.} \bibnamefont{{Gratton}}},
+  \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{{Carretta}}},
+  \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{{Bragaglia}}},
+  \bibinfo{journal}{AAPR} \textbf{\bibinfo{volume}{20}}, \bibinfo{pages}{50}
+  (\bibinfo{year}{2012}), \eprint{1201.6526}.
+
+\bibitem[{\citenamefont{{Conroy} and {Spergel}}(2011)}]{Con&Sperg}
+\bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{{Conroy}}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{D.~N.} \bibnamefont{{Spergel}}},
+  \bibinfo{journal}{\apj} \textbf{\bibinfo{volume}{726}}, \bibinfo{eid}{36}
+  (\bibinfo{year}{2011}), \eprint{1005.4934}.
+
+\bibitem[{\citenamefont{{Taylor} et~al.}(2015)\citenamefont{{Taylor}, {Puzia},
+  {Gomez}, and {Woodley}}}]{Taylor2015}
+\bibinfo{author}{\bibfnamefont{M.~A.} \bibnamefont{{Taylor}}},
+  \bibinfo{author}{\bibfnamefont{T.~H.} \bibnamefont{{Puzia}}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{{Gomez}}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{K.~A.} \bibnamefont{{Woodley}}},
+  \bibinfo{journal}{\apj} \textbf{\bibinfo{volume}{805}}, \bibinfo{eid}{65}
+  (\bibinfo{year}{2015}), \eprint{1503.04198}.
+
+\bibitem[{\citenamefont{{B{\"o}ker} et~al.}(2004)\citenamefont{{B{\"o}ker},
+  {Sarzi}, {McLaughlin}, {van der Marel}, {Rix}, {Ho}, and
+  {Shields}}}]{Boker2004}
+\bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{{B{\"o}ker}}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{{Sarzi}}},
+  \bibinfo{author}{\bibfnamefont{D.~E.} \bibnamefont{{McLaughlin}}},
+  \bibinfo{author}{\bibfnamefont{R.~P.} \bibnamefont{{van der Marel}}},
+  \bibinfo{author}{\bibfnamefont{H.-W.} \bibnamefont{{Rix}}},
+  \bibinfo{author}{\bibfnamefont{L.~C.} \bibnamefont{{Ho}}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{J.~C.} \bibnamefont{{Shields}}},
+  \bibinfo{journal}{AJ} \textbf{\bibinfo{volume}{127}}, \bibinfo{pages}{105}
+  (\bibinfo{year}{2004}), \eprint{astro-ph/0309761}.
+
+\bibitem[{\citenamefont{{Walcher} et~al.}(2005)\citenamefont{{Walcher}, {van
+  der Marel}, {McLaughlin}, {Rix}, {B{\"o}ker}, {H{\"a}ring}, {Ho}, {Sarzi},
+  and {Shields}}}]{Walcher2005}
+\bibinfo{author}{\bibfnamefont{C.~J.} \bibnamefont{{Walcher}}},
+  \bibinfo{author}{\bibfnamefont{R.~P.} \bibnamefont{{van der Marel}}},
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{{McLaughlin}}},
+  \bibinfo{author}{\bibfnamefont{H.-W.} \bibnamefont{{Rix}}},
+  \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{{B{\"o}ker}}},
+  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{{H{\"a}ring}}},
+  \bibinfo{author}{\bibfnamefont{L.~C.} \bibnamefont{{Ho}}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{{Sarzi}}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{J.~C.} \bibnamefont{{Shields}}},
+  \bibinfo{journal}{\apj} \textbf{\bibinfo{volume}{618}}, \bibinfo{pages}{237}
+  (\bibinfo{year}{2005}), \eprint{astro-ph/0409216}.
+
+\bibitem[{\citenamefont{{Walcher} et~al.}(2006)\citenamefont{{Walcher},
+  {B{\"o}ker}, {Charlot}, {Ho}, {Rix}, {Rossa}, {Shields}, and {van der
+  Marel}}}]{Walcher2006}
+\bibinfo{author}{\bibfnamefont{C.~J.} \bibnamefont{{Walcher}}},
+  \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{{B{\"o}ker}}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{{Charlot}}},
+  \bibinfo{author}{\bibfnamefont{L.~C.} \bibnamefont{{Ho}}},
+  \bibinfo{author}{\bibfnamefont{H.-W.} \bibnamefont{{Rix}}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{{Rossa}}},
+  \bibinfo{author}{\bibfnamefont{J.~C.} \bibnamefont{{Shields}}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{R.~P.} \bibnamefont{{van der
+  Marel}}}, \bibinfo{journal}{\apj} \textbf{\bibinfo{volume}{649}},
+  \bibinfo{pages}{692} (\bibinfo{year}{2006}), \eprint{astro-ph/0604138}.
+
+\bibitem[{\citenamefont{{Bromm} and {Clarke}}(2002)}]{Bromm2002}
+\bibinfo{author}{\bibfnamefont{V.}~\bibnamefont{{Bromm}}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{C.~J.} \bibnamefont{{Clarke}}},
+  \bibinfo{journal}{ApJL} \textbf{\bibinfo{volume}{566}}, \bibinfo{pages}{L1}
+  (\bibinfo{year}{2002}), \eprint{astro-ph/0201066}.
+
+\bibitem[{\citenamefont{{Mashchenko} and {Sills}}(2005)}]{Mashchenko2005}
+\bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{{Mashchenko}}}
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{{Sills}}},
+  \bibinfo{journal}{\apj} \textbf{\bibinfo{volume}{619}}, \bibinfo{pages}{258}
+  (\bibinfo{year}{2005}), \eprint{astro-ph/0409606}.
 
 \bibitem[{\citenamefont{{Harris}}(1996)}]{Harris}
 \bibinfo{author}{\bibfnamefont{W.~E.} \bibnamefont{{Harris}}},
   \bibinfo{journal}{The Astronomical Journal} \textbf{\bibinfo{volume}{112}},
   \bibinfo{pages}{1487} (\bibinfo{year}{1996}).
+
+\bibitem[{\citenamefont{{Mackey} et~al.}(2010)\citenamefont{{Mackey},
+  {Ferguson}, {Irwin}, {Martin}, {Huxor}, {Tanvir}, {Chapman}, {Ibata},
+  {Lewis}, and {McConnachie}}}]{Mackey2010}
+\bibinfo{author}{\bibfnamefont{A.~D.} \bibnamefont{{Mackey}}},
+  \bibinfo{author}{\bibfnamefont{A.~M.~N.} \bibnamefont{{Ferguson}}},
+  \bibinfo{author}{\bibfnamefont{M.~J.} \bibnamefont{{Irwin}}},
+  \bibinfo{author}{\bibfnamefont{N.~F.} \bibnamefont{{Martin}}},
+  \bibinfo{author}{\bibfnamefont{A.~P.} \bibnamefont{{Huxor}}},
+  \bibinfo{author}{\bibfnamefont{N.~R.} \bibnamefont{{Tanvir}}},
+  \bibinfo{author}{\bibfnamefont{S.~C.} \bibnamefont{{Chapman}}},
+  \bibinfo{author}{\bibfnamefont{R.~A.} \bibnamefont{{Ibata}}},
+  \bibinfo{author}{\bibfnamefont{G.~F.} \bibnamefont{{Lewis}}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{A.~W.}
+  \bibnamefont{{McConnachie}}}, \bibinfo{journal}{MNRAS}
+  \textbf{\bibinfo{volume}{401}}, \bibinfo{pages}{533} (\bibinfo{year}{2010}),
+  \eprint{0909.1456}.
+
+\bibitem[{\citenamefont{{Henon}}(1969)}]{HenonB}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{{Henon}}},
+  \bibinfo{journal}{Astronomy and Astrophysics} \textbf{\bibinfo{volume}{2}},
+  \bibinfo{pages}{151} (\bibinfo{year}{1969}).
+
+\bibitem[{\citenamefont{{H{\'e}non}}(1960)}]{HenonA}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{{H{\'e}non}}},
+  \bibinfo{journal}{Annales d'Astrophysique} \textbf{\bibinfo{volume}{23}},
+  \bibinfo{pages}{467} (\bibinfo{year}{1960}).
+
+\bibitem[{\citenamefont{{Kroupa}}(2001)}]{Kroupa2001}
+\bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{{Kroupa}}},
+  \bibinfo{journal}{MNRAS} \textbf{\bibinfo{volume}{322}}, \bibinfo{pages}{231}
+  (\bibinfo{year}{2001}), \eprint{astro-ph/0009005}.
+
+\bibitem[{\citenamefont{{Planck Collaboration}
+  et~al.}(2015)\citenamefont{{Planck Collaboration}, {Ade}, {Aghanim},
+  {Arnaud}, {Ashdown}, {Aumont}, {Baccigalupi}, {Banday}, {Barreiro},
+  {Bartlett} et~al.}}]{Planck15}
+\bibinfo{author}{\bibnamefont{{Planck Collaboration}}},
+  \bibinfo{author}{\bibfnamefont{P.~A.~R.} \bibnamefont{{Ade}}},
+  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{{Aghanim}}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{{Arnaud}}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{{Ashdown}}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{{Aumont}}},
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{{Baccigalupi}}},
+  \bibinfo{author}{\bibfnamefont{A.~J.} \bibnamefont{{Banday}}},
+  \bibinfo{author}{\bibfnamefont{R.~B.} \bibnamefont{{Barreiro}}},
+  \bibinfo{author}{\bibfnamefont{J.~G.} \bibnamefont{{Bartlett}}},
+  \bibnamefont{et~al.}, \bibinfo{journal}{ArXiv e-prints}
+  (\bibinfo{year}{2015}), \eprint{1502.01589}.
 
 \end{thebibliography}
