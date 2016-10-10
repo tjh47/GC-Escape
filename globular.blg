@@ -4,51 +4,56 @@ The top-level auxiliary file: globular.aux
 The style file: apsrev.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Biblio.bib
-Repeated entry---line 281 of file Biblio.bib
+I was expecting a `,' or a `}'---line 255 of file Biblio.bib
+ : 
+ : @ARTICLE{Walcher2006,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 1957 of file Biblio.bib
  : @article{Planck15
  :                  ,
 I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 25 entries,
+You've used 26 entries,
             3411 wiz_defined-function locations,
-            1337 strings with 14184 characters,
-and the built_in function-call counts, 19870 in all, are:
-= -- 1028
-> -- 818
-< -- 112
-+ -- 705
-- -- 202
-* -- 2833
-:= -- 2060
-add.period$ -- 25
-call.type$ -- 25
-change.case$ -- 100
-chr.to.int$ -- 25
-cite$ -- 25
-duplicate$ -- 1799
-empty$ -- 1612
-format.name$ -- 476
-if$ -- 3681
+            1344 strings with 14207 characters,
+and the built_in function-call counts, 20357 in all, are:
+= -- 1059
+> -- 825
+< -- 114
++ -- 709
+- -- 204
+* -- 2890
+:= -- 2122
+add.period$ -- 26
+call.type$ -- 26
+change.case$ -- 104
+chr.to.int$ -- 26
+cite$ -- 26
+duplicate$ -- 1847
+empty$ -- 1659
+format.name$ -- 481
+if$ -- 3775
 int.to.chr$ -- 1
-int.to.str$ -- 26
-missing$ -- 277
-newline$ -- 90
-num.names$ -- 76
-pop$ -- 474
+int.to.str$ -- 27
+missing$ -- 285
+newline$ -- 93
+num.names$ -- 79
+pop$ -- 487
 preamble$ -- 1
-purify$ -- 100
+purify$ -- 104
 quote$ -- 0
-skip$ -- 713
+skip$ -- 730
 stack$ -- 0
-substring$ -- 477
-swap$ -- 1507
-text.length$ -- 101
+substring$ -- 495
+swap$ -- 1540
+text.length$ -- 102
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 150
+type$ -- 156
 warning$ -- 0
-while$ -- 71
+while$ -- 74
 width$ -- 0
-write$ -- 280
-(There was 1 error message)
+write$ -- 290
+(There were 2 error messages)

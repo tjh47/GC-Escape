@@ -1,4 +1,4 @@
-\begin{thebibliography}{25}
+\begin{thebibliography}{26}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -14,7 +14,7 @@
 
 \bibitem[{\citenamefont{{Peebles}}(1984)}]{Peebles1984}
 \bibinfo{author}{\bibfnamefont{P.~J.~E.} \bibnamefont{{Peebles}}},
-  \bibinfo{journal}{\apj} \textbf{\bibinfo{volume}{277}}, \bibinfo{pages}{470}
+  \bibinfo{journal}{ApJ} \textbf{\bibinfo{volume}{277}}, \bibinfo{pages}{470}
   (\bibinfo{year}{1984}).
 
 \bibitem[{\citenamefont{{Grillmair} et~al.}(1995)\citenamefont{{Grillmair},
@@ -60,7 +60,7 @@
 \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{{Conroy}}},
   \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{{Loeb}}}, \bibnamefont{and}
   \bibinfo{author}{\bibfnamefont{D.~N.} \bibnamefont{{Spergel}}},
-  \bibinfo{journal}{\apj} \textbf{\bibinfo{volume}{741}}, \bibinfo{eid}{72}
+  \bibinfo{journal}{ApJ} \textbf{\bibinfo{volume}{741}}, \bibinfo{eid}{72}
   (\bibinfo{year}{2011}), \eprint{1010.5783}.
 
 \bibitem[{\citenamefont{{Ibata} et~al.}(2013)\citenamefont{{Ibata}, {Nipoti},
@@ -82,8 +82,8 @@
   \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{{Natarajan}}},
   \bibnamefont{and}
   \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{{Badenes}}},
-  \bibinfo{journal}{\prd} \textbf{\bibinfo{volume}{91}}, \bibinfo{eid}{103514}
-  (\bibinfo{year}{2015}), \eprint{1410.3925}.
+  \bibinfo{journal}{Phys Rev D} \textbf{\bibinfo{volume}{91}},
+  \bibinfo{eid}{103514} (\bibinfo{year}{2015}), \eprint{1410.3925}.
 
 \bibitem[{\citenamefont{{Gunn}}(1980)}]{Gunn1980}
 \bibinfo{author}{\bibfnamefont{J.~E.} \bibnamefont{{Gunn}}}, in
@@ -95,7 +95,7 @@
 \bibitem[{\citenamefont{{Harris} and {Pudritz}}(1994)}]{Harris1994}
 \bibinfo{author}{\bibfnamefont{W.~E.} \bibnamefont{{Harris}}} \bibnamefont{and}
   \bibinfo{author}{\bibfnamefont{R.~E.} \bibnamefont{{Pudritz}}},
-  \bibinfo{journal}{\apj} \textbf{\bibinfo{volume}{429}}, \bibinfo{pages}{177}
+  \bibinfo{journal}{ApJ} \textbf{\bibinfo{volume}{429}}, \bibinfo{pages}{177}
   (\bibinfo{year}{1994}).
 
 \bibitem[{\citenamefont{{Gratton} et~al.}(2004)\citenamefont{{Gratton},
@@ -118,7 +118,7 @@
 \bibitem[{\citenamefont{{Conroy} and {Spergel}}(2011)}]{Con&Sperg}
 \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{{Conroy}}} \bibnamefont{and}
   \bibinfo{author}{\bibfnamefont{D.~N.} \bibnamefont{{Spergel}}},
-  \bibinfo{journal}{\apj} \textbf{\bibinfo{volume}{726}}, \bibinfo{eid}{36}
+  \bibinfo{journal}{ApJ} \textbf{\bibinfo{volume}{726}}, \bibinfo{eid}{36}
   (\bibinfo{year}{2011}), \eprint{1005.4934}.
 
 \bibitem[{\citenamefont{{Taylor} et~al.}(2015)\citenamefont{{Taylor}, {Puzia},
@@ -127,7 +127,7 @@
   \bibinfo{author}{\bibfnamefont{T.~H.} \bibnamefont{{Puzia}}},
   \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{{Gomez}}}, \bibnamefont{and}
   \bibinfo{author}{\bibfnamefont{K.~A.} \bibnamefont{{Woodley}}},
-  \bibinfo{journal}{\apj} \textbf{\bibinfo{volume}{805}}, \bibinfo{eid}{65}
+  \bibinfo{journal}{Ap J} \textbf{\bibinfo{volume}{805}}, \bibinfo{eid}{65}
   (\bibinfo{year}{2015}), \eprint{1503.04198}.
 
 \bibitem[{\citenamefont{{B{\"o}ker} et~al.}(2004)\citenamefont{{B{\"o}ker},
@@ -155,7 +155,7 @@
   \bibinfo{author}{\bibfnamefont{L.~C.} \bibnamefont{{Ho}}},
   \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{{Sarzi}}}, \bibnamefont{and}
   \bibinfo{author}{\bibfnamefont{J.~C.} \bibnamefont{{Shields}}},
-  \bibinfo{journal}{\apj} \textbf{\bibinfo{volume}{618}}, \bibinfo{pages}{237}
+  \bibinfo{journal}{Ap J} \textbf{\bibinfo{volume}{618}}, \bibinfo{pages}{237}
   (\bibinfo{year}{2005}), \eprint{astro-ph/0409216}.
 
 \bibitem[{\citenamefont{{Walcher} et~al.}(2006)\citenamefont{{Walcher},
@@ -169,7 +169,7 @@
   \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{{Rossa}}},
   \bibinfo{author}{\bibfnamefont{J.~C.} \bibnamefont{{Shields}}},
   \bibnamefont{and} \bibinfo{author}{\bibfnamefont{R.~P.} \bibnamefont{{van der
-  Marel}}}, \bibinfo{journal}{\apj} \textbf{\bibinfo{volume}{649}},
+  Marel}}}, \bibinfo{journal}{Ap J} \textbf{\bibinfo{volume}{649}},
   \bibinfo{pages}{692} (\bibinfo{year}{2006}), \eprint{astro-ph/0604138}.
 
 \bibitem[{\citenamefont{{Bromm} and {Clarke}}(2002)}]{Bromm2002}
@@ -181,7 +181,7 @@
 \bibitem[{\citenamefont{{Mashchenko} and {Sills}}(2005)}]{Mashchenko2005}
 \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{{Mashchenko}}}
   \bibnamefont{and} \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{{Sills}}},
-  \bibinfo{journal}{\apj} \textbf{\bibinfo{volume}{619}}, \bibinfo{pages}{258}
+  \bibinfo{journal}{ApJ} \textbf{\bibinfo{volume}{619}}, \bibinfo{pages}{258}
   (\bibinfo{year}{2005}), \eprint{astro-ph/0409606}.
 
 \bibitem[{\citenamefont{{Harris}}(1996)}]{Harris}
@@ -215,6 +215,11 @@
 \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{{H{\'e}non}}},
   \bibinfo{journal}{Annales d'Astrophysique} \textbf{\bibinfo{volume}{23}},
   \bibinfo{pages}{467} (\bibinfo{year}{1960}).
+
+\bibitem[{\citenamefont{{Aarseth}}(1966)}]{Aarseth1966}
+\bibinfo{author}{\bibfnamefont{S.~J.} \bibnamefont{{Aarseth}}},
+  \bibinfo{journal}{MNRAS} \textbf{\bibinfo{volume}{132}}, \bibinfo{pages}{35}
+  (\bibinfo{year}{1966}).
 
 \bibitem[{\citenamefont{{Kroupa}}(2001)}]{Kroupa2001}
 \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{{Kroupa}}},
